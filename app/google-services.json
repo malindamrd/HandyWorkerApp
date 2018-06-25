@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "6015646864",
+    "firebase_url": "https://yoworker-ccacd.firebaseio.com",
+    "project_id": "yoworker-ccacd",
+    "storage_bucket": "yoworker-ccacd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6015646864:android:df5f58bae2233b4b",
+        "android_client_info": {
+          "package_name": "com.example.malindadeshapriya.handyworkerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6015646864-bt1q1a5kvc2drdkecrusfj6u1h66dobh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.malindadeshapriya.handyworkerapp",
+            "certificate_hash": "b186f7e3db0138fb4cf82532ce3f8c3c467231df"
+          }
+        },
+        {
+          "client_id": "6015646864-9vk7eqbcgsviss94hg62mn1uihq4mmsk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVOH3bSVIigKpKELDFjJvxxtItJJo2hoo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "6015646864-9vk7eqbcgsviss94hg62mn1uihq4mmsk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,136 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.malindadeshapriya.handyworkerapp.Signup.HouseholdOwnerSignUp">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/txt_owner_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView5"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="25dp"
+            android:background="@color/cast_expanded_controller_progress_text_color"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            android:drawableLeft="@drawable/person"
+            android:drawablePadding="14.5sp"
+            android:ems="10"
+            android:hint="Your Name"
+            android:inputType="textPersonName"
+            android:textAlignment="gravity"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textSize="10sp"
+            tools:layout_editor_absoluteX="41dp"
+            tools:layout_editor_absoluteY="203dp" />
+
+        <EditText
+            android:id="@+id/txt_owner_email"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/editTextSUName"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@color/cast_expanded_controller_progress_text_color"
+            android:drawableLeft="@drawable/email1"
+            android:drawablePadding="14.5sp"
+            android:ems="10"
+            android:hint="Email Address"
+            android:inputType="textEmailAddress"
+            android:textAlignment="gravity"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textSize="10sp"
+            tools:layout_editor_absoluteX="42dp"
+            tools:layout_editor_absoluteY="260dp" />
+
+        <EditText
+            android:id="@+id/et_worker_password"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/editTextSUEmail"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@color/cast_expanded_controller_progress_text_color"
+            android:drawableLeft="@drawable/lock2"
+            android:drawablePadding="14.5sp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textAlignment="gravity"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textSize="10sp"
+            tools:layout_editor_absoluteX="45dp"
+            tools:layout_editor_absoluteY="324dp" />
+
+        <EditText
+            android:id="@+id/txt_owner_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/et_worker_password"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@color/cast_expanded_controller_progress_text_color"
+            android:drawableLeft="@drawable/lock2"
+            android:drawablePadding="14.5sp"
+            android:ems="10"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:textAlignment="gravity"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textSize="10sp"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="383dp" />
+
+        <EditText
+            android:id="@+id/txt_owner_emg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@color/cast_expanded_controller_progress_text_color"
+            android:drawableLeft="@drawable/phone"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="Emergency Phone Number"
+            android:inputType="phone"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:textAlignment="gravity"
+            android:textColor="@color/cardview_dark_background"
+            android:textColorHint="@color/cardview_dark_background"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_signup_owner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/button"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="Sign up"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

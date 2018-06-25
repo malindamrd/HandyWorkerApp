@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.malindadeshapriya.handyworkerapp.Signup.WorkerPhoneConfirm">
+
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/malinda"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editText_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="150dp"
+            android:alpha="0.95"
+            android:backgroundTint="@color/cardview_light_background"
+            android:ems="10"
+            android:hint="Enter your phone number here"
+            android:inputType="phone"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textColorLink="@color/cardview_light_background" />
+
+        <Button
+            android:id="@+id/btn_getCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="20dp"
+            android:alpha="0.95"
+            android:background="@color/button"
+            android:text="Get Code"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_resend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/button"
+            android:text="RESEND CODE"
+            android:alpha="0.95"
+            android:textColor="@android:color/white"/>
+
+        <EditText
+            android:id="@+id/editText_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="50dp"
+            android:alpha="0.95"
+            android:backgroundTint="@color/cardview_light_background"
+            android:ems="10"
+            android:hint="Insert Confirmation Code "
+            android:inputType="textPersonName"
+            android:paddingBottom="5dp"
+            android:paddingLeft="6dp"
+            android:paddingTop="5dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textColorLink="@color/cardview_light_background" />
+
+        <Button
+            android:id="@+id/btn_verify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/button"
+            android:text="Verify"
+            android:alpha="0.95"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

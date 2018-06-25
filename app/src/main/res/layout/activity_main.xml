@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/malinda"
+
+
+
+    tools:context="com.example.malindadeshapriya.handyworkerapp.Login.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="false"
+        android:layout_alignTop="@+id/buttonLogin"
+        android:layout_marginTop="450dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_google"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/button5"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/google32"
+            android:paddingLeft="70dp"
+            android:text="   Login with Google  "
+            android:textAlignment="textStart"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btn_facebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/button4"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/facebook"
+            android:paddingLeft="70dp"
+            android:text="  Login with Facebook  "
+            android:textAlignment="textStart"
+            android:textColor="@android:color/white"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/buttonSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/button4"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/account"
+            android:fontFamily="sans-serif"
+            android:paddingLeft="70dp"
+            android:text="  Create account"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/white"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="150dp"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="26dp"
+            android:background="@android:drawable/screen_background_dark_transparent"
+            android:src="@drawable/logo" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/radioClient"
+            android:layout_alignStart="@+id/radioClient"
+            android:layout_marginLeft="75dp"
+            android:layout_marginRight="75dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioClient"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/editTextLoginEmail"
+                android:layout_alignStart="@+id/editTextLoginEmail"
+                android:layout_weight="1"
+                android:background="@color/button"
+                android:text="Client        "
+                android:textAlignment="center"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="10sp" />
+
+            <RadioButton
+                android:id="@+id/radioWorker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/radioClient"
+                android:layout_alignBottom="@+id/radioClient"
+                android:layout_alignEnd="@+id/editTextLoginEmail"
+                android:layout_weight="1"
+                android:background="@color/button"
+                android:text="Worker      "
+                android:textAlignment="center"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="10sp" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/editTextLoginEmail"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignStart="@+id/radioGroup"
+            android:layout_below="@+id/imageButton2"
+            android:layout_marginLeft="75dp"
+            android:layout_marginRight="75dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/cast_expanded_controller_progress_text_color"
+            android:drawableLeft="@drawable/email1"
+            android:drawablePadding="14.5sp"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="Email"
+            android:inputType="textPersonName"
+            android:textAlignment="gravity"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textColorLink="@android:color/holo_blue_dark"
+            android:textSize="10sp" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignStart="@+id/editTextLoginEmail"
+            android:layout_below="@+id/radioGroup"
+            android:layout_marginLeft="75dp"
+            android:layout_marginRight="75dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/cast_expanded_controller_progress_text_color"
+            android:drawableLeft="@drawable/lock2"
+            android:drawablePadding="14.5sp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textAlignment="gravity"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textColorLink="@android:color/holo_blue_dark"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/editTextPassword"
+            android:layout_below="@+id/editTextPassword"
+            android:layout_marginLeft="75dp"
+            android:text="Forget password"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/editTextPassword"
+            android:layout_marginLeft="75dp"
+            android:layout_marginRight="75dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/button"
+            android:fontFamily="sans-serif"
+            android:text="Login"
+            android:textColor="@android:color/black"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

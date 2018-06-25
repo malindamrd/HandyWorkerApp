@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Handy Worker App</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="search">Search</string>
+    <string name="profile">Profile</string>
+    <string name="about_us">About Us</string>
+    <string name="logout">Logout</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="facebook_app_id">427541034346429</string>
+    <string name="fb_login_protocol_scheme">fb427541034346429</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+    <string-array name="job_cat">
+        <item>Plumber</item>
+        <item>Painter </item>
+        <item>Cleaning</item>
+        <item>Door repair</item>
+        <item>Gutter Repair</item>
+        <item>Welding</item>
+        <item>Welding</item>
+        <item>Maid service</item>
+    </string-array>
+    <string name="title_activity_worker_home">WorkerHomeActivity</string>
+</resources>
